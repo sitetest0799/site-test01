@@ -1,0 +1,547 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cafe Komorebiは、ほっとひと息つける架空のカフェ。自家焙煎コーヒーと季節のお菓子をお楽しみください。" />
+  <title>Cafe Komorebi | 木漏れ日のような、やさしい時間。</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a class="logo" href="#top" aria-label="Cafe Komorebi トップへ">
+        <span class="logo-leaf">✳</span> Cafe <strong>Komorebi</strong>
+        <small>COFFEE & SLOW TIME</small>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="メインナビゲーション">
+        <a href="#about">ABOUT</a>
+        <a href="#news">NEWS</a>
+        <a href="#menu">MENU</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#faq">FAQ</a>
+        <a href="#access">ACCESS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div
+        class="hero-photo"
+        role="img"
+        aria-label="木のテーブルに置かれたコーヒーと焼き菓子"
+      ></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <p class="hero-eyebrow">A LITTLE PAUSE, A LOT OF COMFORT.</p>
+        <h1 id="hero-title">木漏れ日のような、<br>やさしい時間。</h1>
+        <p>
+          香り高いコーヒーと、季節の小さなお菓子。<br>
+          日常から少し離れて、心ほどけるひとときを。
+        </p>
+        <a href="#about" class="button button-light">
+          OUR STORY <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <span class="hero-side">SLOW DOWN & ENJOY THE MOMENT</span>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro-strip" aria-label="カフェの特徴">
+      <div class="container">
+        <span>COFFEE</span>
+        <span class="dot">✳</span>
+        <span>HOMEMADE SWEETS</span>
+        <span class="dot">✳</span>
+        <span>YOUR QUIET PLACE</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1100&q=85"
+            alt="淹れたてのコーヒー"
+            loading="lazy"
+          >
+          <span class="image-stamp">slow<br>moments<br>✳</span>
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow">01 / OUR STORY</p>
+          <h2 class="section-title">
+            何もしない時間も、<br><em>大切に。</em>
+          </h2>
+
+          <p>
+            慌ただしい毎日の中で、ふっと肩の力を抜ける場所があったなら。
+          </p>
+
+          <p>
+            Cafe Komorebiは、そんな想いから生まれた小さなカフェです。
+            丁寧に淹れた一杯と、季節の素材を使った手づくりのお菓子を
+            ご用意しています。
+          </p>
+
+          <p>
+            ひとりで読書をする日も、大切な人と語らう日も。
+            あなたらしい時間を、ここで。
+          </p>
+
+          <a href="#menu" class="text-link">
+            メニューを見る <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section news-section">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">02 / NEWS & INFORMATION</p>
+          <h2 class="section-title">
+            カフェからの、<em>お知らせ。</em>
+          </h2>
+          <p>季節のメニューやお店の最新情報をお届けします。</p>
+        </div>
+
+<div class="news-list">
+  <!-- Aのお知らせ -->
+  <a href="news.html#news-a" class="news-item">
+    <time datetime="2026-11-01">2026.11.01</time>
+    <span class="news-category">MENU</span>
+    <p>秋限定のスイーツメニューが登場しました。</p>
+  </a>
+
+  <!-- Bのお知らせ -->
+  <a href="news.html#news-b" class="news-item">
+    <time datetime="2026-10-20">2026.10.20</time>
+    <span class="news-category">INFO</span>
+    <p>11月の営業時間についてのお知らせ。</p>
+  </a>
+
+  <!-- Cのお知らせ -->
+  <a href="news.html#news-c" class="news-item">
+    <time datetime="2026-10-01">2026.10.01</time>
+    <span class="news-category">EVENT</span>
+    <p>週末限定のコーヒー試飲イベントを開催します。</p>
+  </a>
+</div>
+
+
+        <p class="news-note">
+          ※ お知らせはポートフォリオ用の架空の内容です。
+        </p>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section menu-section">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">03 / OUR MENU</p>
+          <h2 class="section-title">
+            今日の気分に、<em>ひとさじの幸せ。</em>
+          </h2>
+          <p>毎日でも楽しみたくなる、やさしい味わい。</p>
+        </div>
+
+        <div
+          class="menu-filters"
+          role="group"
+          aria-label="メニューのカテゴリ切り替え"
+        >
+          <button
+            class="filter-btn active"
+            type="button"
+            data-filter="all"
+            aria-pressed="true"
+          >ALL</button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="drink"
+            aria-pressed="false"
+          >DRINK</button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="sweets"
+            aria-pressed="false"
+          >SWEETS</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card" data-category="drink">
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=85"
+                alt="コーヒーカップ"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-label">COFFEE</div>
+              <h3>ハンドドリップコーヒー</h3>
+              <p>豆本来の香りと甘みを、ゆっくり丁寧に引き出した一杯。</p>
+              <span class="price">¥550</span>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="drink">
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85"
+                alt="アイスカフェラテ"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-label">LATTE</div>
+              <h3>カフェラテ</h3>
+              <p>エスプレッソのコクとミルクのまろやかさ。</p>
+              <span class="price">¥620</span>
+            </div>
+          </article>
+
+          <article class="menu-card" data-category="sweets">
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=85"
+                alt="季節のデザート"
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-label">SWEETS</div>
+              <h3>季節の手づくりスイーツ</h3>
+              <p>旬の素材を使って、ひとつずつ心を込めて。</p>
+              <span class="price">¥680〜</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="menu-note">
+          ※ メニュー・価格はポートフォリオ用の架空の設定です。
+        </p>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote-section">
+      <div class="container">
+        <span class="quote-mark">“</span>
+        <p>Take a moment.<br>Make it yours.</p>
+        <span>今日という日に、小さな余白を。</span>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">04 / GALLERY</p>
+          <h2 class="section-title">
+            ここで過ごす、<em>ひととき。</em>
+          </h2>
+        </div>
+
+        <div class="gallery-grid">
+          <img
+            src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=85"
+            alt="カフェの落ち着いた店内"
+            loading="lazy"
+          >
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=85"
+            alt="コーヒーのあるテーブル"
+            loading="lazy"
+          >
+          <img
+            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=85"
+            alt="淹れたてのコーヒー"
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq-section">
+      <div class="container faq-container">
+        <div class="section-heading center">
+          <p class="eyebrow">05 / FAQ</p>
+          <h2 class="section-title">
+            よくある<em>ご質問。</em>
+          </h2>
+          <p>ご来店前の疑問にお答えします。</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">Q.</span>
+              <span class="faq-question">Wi-Fiは利用できますか？</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              はい。店内では無料Wi-Fiをご利用いただける設定です。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">Q.</span>
+              <span class="faq-question">テイクアウトはできますか？</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              コーヒーや一部のスイーツはお持ち帰りいただけます。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">Q.</span>
+              <span class="faq-question">予約は必要ですか？</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              ご予約なしでご利用いただけます。
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span class="faq-q">Q.</span>
+              <span class="faq-question">キャッシュレス決済に対応していますか？</span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              クレジットカードや電子マネーをご利用いただける設定です。
+            </div>
+          </details>
+        </div>
+
+        <p class="faq-note">
+          ※ 回答内容は架空店舗の設定です。
+        </p>
+      </div>
+    </section>
+
+    <!-- ACCESS -->
+    <section id="access" class="section access-section">
+      <div class="container access-grid">
+        <div>
+          <p class="eyebrow">06 / VISIT US</p>
+          <h2 class="section-title">
+            また、<em>いつでも。</em>
+          </h2>
+
+          <p class="access-lead">
+            いつもの道を少し曲がった先に。<br>
+            あなたのご来店をお待ちしています。
+          </p>
+
+          <dl class="access-details">
+            <div>
+              <dt>店名</dt>
+              <dd>Cafe Komorebi</dd>
+            </div>
+            <div>
+              <dt>住所</dt>
+              <dd>
+                東京都※※※※※※※※※※※<br>
+                <small>※ 架空の住所です</small>
+              </dd>
+            </div>
+            <div>
+              <dt>営業時間</dt>
+              <dd>10:00〜18:00（L.O. 17:30）</dd>
+            </div>
+            <div>
+              <dt>定休日</dt>
+              <dd>毎週水曜日</dd>
+            </div>
+          </dl>
+
+          <p class="access-note">
+            ※ このサイトは自主制作の架空店舗サイトです。
+            実在する店舗ではありません。
+          </p>
+        </div>
+
+        <div class="access-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12972.914106652133!2d139.89134141528007!3d35.62209236169904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1793631396997!5m2!1sja!2sjp"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="サンプルアクセスマップ"
+          ></iframe>
+
+          <p class="map-note">
+            ※ 地図はポートフォリオ用のサンプル表示です。
+            実在する店舗の所在地ではありません。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-container">
+        <div class="section-heading center">
+          <p class="eyebrow">07 / CONTACT</p>
+          <h2 class="section-title">
+            お気軽に、<em>お問い合わせ。</em>
+          </h2>
+          <p>ご質問などはこちらからどうぞ。</p>
+        </div>
+
+        <div class="contact-notice">
+          <strong>デモフォームについて</strong>
+          <p>
+            こちらはポートフォリオ用のデモです。
+            入力内容のチェックを体験できますが、
+            メッセージは送信されません。
+          </p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-field">
+            <label for="contact-name">
+              お名前 <span>必須</span>
+            </label>
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              placeholder="例：山田 太郎"
+              autocomplete="name"
+              maxlength="100"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="contact-email">
+              メールアドレス <span>必須</span>
+            </label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              placeholder="example@example.com"
+              autocomplete="email"
+              maxlength="254"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="contact-type">
+              お問い合わせ種別 <span>必須</span>
+            </label>
+            <select
+              id="contact-type"
+              name="type"
+              required
+            >
+              <option value="">選択してください</option>
+              <option value="menu">メニューについて</option>
+              <option value="shop">店舗について</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="contact-message">
+              お問い合わせ内容 <span>必須</span>
+            </label>
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="6"
+              maxlength="2000"
+              placeholder="お問い合わせ内容をご入力ください"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact-submit">
+            入力内容を確認する
+            <span aria-hidden="true">↗</span>
+          </button>
+
+          <p
+            id="form-result"
+            class="form-result"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="footer-logo" href="#top">
+          Cafe Komorebi <span>✳</span>
+        </a>
+        <p>木漏れ日のような、やさしい時間。</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">ABOUT</a>
+        <a href="#news">NEWS</a>
+        <a href="#menu">MENU</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#faq">FAQ</a>
+        <a href="#access">ACCESS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <small>© 2026 Cafe Komorebi — Fictional portfolio project.</small>
+      <a href="#top">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
